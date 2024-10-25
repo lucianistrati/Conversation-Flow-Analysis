@@ -16,10 +16,9 @@ def analyze_conversation_flow(transcript, interpreter):
 
 def main():
     # Load the Rasa model
-    model_path = "models"  # Specify your Rasa model path
+    model_path = "models/model.pth"
     interpreter = load_interpreter(model_path)
-
-    # Example conversation transcript (replace with your data)
+    
     conversation_transcript = [
         "Hi, I'm interested in your product.",
         "Can you tell me more about the features?",
